@@ -159,9 +159,9 @@ h4 {
 }
 
 .next-hover:hover .next-img {
+  border-radius: 100px;
   transform: translateX(0);
   opacity: 1;
-  border-radius: 100px;
 }
 
 
