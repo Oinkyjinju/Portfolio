@@ -1,8 +1,8 @@
-$('#fadeout').on('click', function() {
-    if ($('#body').css('opacity') == 1) {
-        $('#body').css('opacity', 0);
+$('#submit').on('click', function() {
+    if ($('#next-fade').css('opacity') == 1) {
+        $('#next-fade').css('opacity', 0);
     }
     else {
-        $('#body').css('opacity', 1);
+        $('#next-fade').css('opacity', 1);
     }
 });
