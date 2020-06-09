@@ -131,9 +131,8 @@ h4 {
   right: 0%;
 }
 
-.item-b:hover {
+.item-b :hover {
   border-radius: 100px;
-
 }
 
 .item-c {
@@ -164,7 +163,6 @@ h4 {
 }
 
 .next-hover:hover .next-img {
-  border-radius: 100px;
   transform: translateX(0);
   opacity: 1;
 }
