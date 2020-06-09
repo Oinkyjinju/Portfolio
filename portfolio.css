@@ -1,9 +1,9 @@
 
 body { 
-  animation: fadeInAnimation ease 5s 
+  animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
-  animation: fadeOutAnimation ease 5s
+  animation: fadeOutAnimation ease 5s;
 
 } 
 
