@@ -212,11 +212,7 @@ position: absolute;
   transition: all 0.3s ease;
 }
 
-.goback::after {
-position: absolute;
-}
-
-.goback:hover::after {
+.goback-hover:hover .goback-img {
   border-radius: 100%;
   bottom: 100%;
   height: 0;
