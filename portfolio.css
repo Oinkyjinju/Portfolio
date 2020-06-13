@@ -132,6 +132,14 @@ h4 {
   right: 0%;
 }
 
+.item-b::after {
+position: absolute;
+}
+
+.item-b:hover::after {
+  border-radius: 100%;
+}
+
 
 .item-c {
   top: 11%;
@@ -147,8 +155,8 @@ h4 {
   height: 131px;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: top left;
 }
 
 .next-img {
