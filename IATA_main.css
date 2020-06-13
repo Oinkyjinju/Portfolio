@@ -222,7 +222,7 @@ position: absolute;
   transition: all 0.3s ease;
 }
 
-.goback-hover:hover .next-img {
+.goback-hover:hover .goback-img {
   transform: translateX(0);
   opacity: 1;
 }
