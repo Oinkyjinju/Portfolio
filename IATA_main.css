@@ -199,12 +199,10 @@ position: absolute;
 
 .goback:hover::after {
   border-radius: 100%;
-}
-
-.goback:hover .ovrlay {
   bottom: 100%;
   height: 0;
-  }
+}
+
 
 
 
