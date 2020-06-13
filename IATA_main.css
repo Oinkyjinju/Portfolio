@@ -98,6 +98,16 @@ h4 {
   color: #000000;
 }
 
+h5 {
+  font-weight: 500;
+  font-size: 55pt;
+  color: #000000; 
+  text-shadow: 4px 4px 0px #ffffff;
+  position: absolute;
+  bottom: 3%;
+  left: 1%;
+}
+
 .yearbox {
   top: 23%;
   left: 22%;
@@ -179,7 +189,7 @@ position: absolute;
   z-index: -1;
   background-color: #8cd1cf;
   top: 80%;
-  right: 0%;
+  left: 0%;
 }
 
 .goback::after {
