@@ -83,11 +83,11 @@ h2 {
 
 h3 {
   font-weight: 500;
-  font-size: 55pt;
+  font-size: 35pt;
   color: #000000; 
   text-shadow: 4px 4px 0px #ffffff;
   position: absolute;
-  bottom: 3%;
+  bottom: 9%;
   right: 1%;
 }
 
@@ -96,6 +96,16 @@ h4 {
   font-size: 11pt;
   line-height: 1.4;
   color: #000000;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 35pt;
+  color: #000000; 
+  text-shadow: 4px 4px 0px #ffffff;
+  position: absolute;
+  bottom: 4.2%;
+  left: 1%;
 }
 
 .yearbox {
@@ -123,7 +133,7 @@ h4 {
 }
 
 .item-b {
-  width: 330px;
+  width: 270px;
   height: 131px;
   position: absolute;
   z-index: -1;
@@ -151,7 +161,7 @@ position: absolute;
 .next-hover {
   display: block;
   text-decoration: none;
-  width: 330px;
+  width: 270px;
   height: 131px;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -171,6 +181,45 @@ position: absolute;
   transform: translateX(0);
   opacity: 1;
 }
+
+.goback {
+  width: 270px;
+  height: 131px;
+  position: absolute;
+  z-index: -1;
+  background-color: #8cd1cf;
+  top: 80%;
+  left: 0%;
+  transition: .3s ease-in-out;
+}
+
+.goback-hover {
+  display: block;
+  text-decoration: none;
+  width: 270px;
+  height: 131px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+}
+
+.goback-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.goback-hover:hover .goback-img {
+  border-radius: 100%;
+  bottom: 100%;
+  height: 0;
+  transform: translateX(0);
+  opacity: 1;
+}
+
 
 
 
